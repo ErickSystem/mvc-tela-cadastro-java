@@ -1,0 +1,80 @@
+/*
+	Style of the table reference class three.
+*/
+body{
+	margin-top: 5%;
+  background: #ccc;
+}
+
+a:link, a:visited, a:active {
+  text-decoration:none;
+  font-size: 1.2em;
+  }
+a:hover {
+ /*text-decoration: underline; */
+  color: white; 
+  background: #BA55D3; 
+  }
+
+/*
+  This class is call by jQuery
+*/
+.selected{
+    color: red;
+    font: verdana;
+    font-size: 22px;
+    background: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  border: 3px solid white;
+  font: normal 14px verdana, arial, helvetica, sans-serif;
+  color: #aaa;
+  background: #bbb;
+  margin: 0 auto;
+  border-spacing: 5px;
+
+}
+caption {
+  padding: 0 .4em .4em;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #4B0082;
+  background: transparent;
+
+}
+td, th {
+  color: black;
+  border: 2px solid black;
+  padding: .4em;
+}
+thead th, tfoot th {
+  font: normal 11px georgia, verdana, arial, helvetica, sans-serif;
+  border: transparent;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  color: blue;
+  background: #C5BA85;
+}
+tbody td a {
+  background: transparent;
+  color: #72724c;
+  text-decoration: none;
+  text-size: 1.2em;
+}
+
+tbody th a {
+  font: normal 11px georgia, verdana, arial, helvetica, sans-serif;
+  background: transparent;
+  color: #333333;
+  text-decoration: none;
+  font-weight:normal;
+  text-size: 1em;
+ }

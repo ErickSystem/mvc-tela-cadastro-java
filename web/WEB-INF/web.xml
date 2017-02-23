@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>AtualizaLista</servlet-name>
+        <servlet-class>crud.jsp.control.AtualizaLista</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Consultar</servlet-name>
+        <servlet-class>crud.jsp.control.Consultar</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AtualizaLista</servlet-name>
+        <url-pattern>/AtualizaLista</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Controle</servlet-name>
+        <servlet-class>crud.jsp.control.Controle</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Controle</servlet-name>
+        <url-pattern>/Controle</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Consultar</servlet-name>
+        <url-pattern>/Consultar</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>formulario.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
